@@ -1,0 +1,27 @@
+[
+    {
+        "nombre":  "Edgar",
+        "dni": "39418831",
+        "maximoCuota": 12000,
+        "maximoPrecioAPagar": 750000
+    },
+    {
+        "nombre":  "Aquiles",
+        "dni": "12345678",
+        "maximoCuota": 20000,
+        "maximoPrecioAPagar": 1000000
+
+    },
+    { 
+        "nombre":  "Nicolas",
+        "dni": "22255564",
+        "maximoCuota": 15000,
+        "maximoPrecioAPagar": 250000
+    },
+    {
+        "nombre":  "Sara",
+        "dni": "87654321",
+        "maximoCuota": 12000,
+        "maximoPrecioAPagar": 1000000
+    }
+]

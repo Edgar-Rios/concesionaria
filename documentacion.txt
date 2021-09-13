@@ -1,0 +1,38 @@
+Basicamente trate de simular una aplicacion de venta de autos de una concesionaria, por como 
+lo hice parece ser mas de escritorio que para trabajarla desde la internet.creo nose
+
+comandos ==> se escriben despues de >node app.js<
+-------------------------------------------------
+iniciar => comienza la operacion de venta.                    require del nombre y apellido del cliente
+cotizar => establece los valores de cuota y paga del cliente.    "    valor de cuota y valor de pago maximo
+atender => Muestra una lista de autos basados en el cliente.     "    no require valores solo imprime por consola una lista(en caso de que hayan autos).
+catalogo=> Muestra todos los autos alojados en la "BD"
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+MUESTRO CON COMENTARIOS DENTRO DE BARRAS COMO ESTE LOS METODOS QUE A MI PARECER NECESITAN ARREGLO U OPTIMIZACION
+*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+INDEX:JS
+este fichero que esta dentro de la carpeta iu contiene un "modulo" por asi decir que contiene funciones para poder mostrar
+los resultados que se obtienen de una manera mas "linda?"
+
+CONCESIONARIA.JS
+Posee todas las funciones a exportar para hacer funcionar la concesionaria.
+
+APP:JS
+fichero principal. Es el que se debe ejecutar desde la consola para que arranque la aplicacion
+
+-CARPETA CACHE
+Dentro de esta carpeta existen dos archivos "autosCache" y "clienteCache". Guardarian los datos de la operacion en curso que se 
+esta efectuando:
+Lista de autos filtrada con las opciones disponibles para el cliente. Si no hay ninguna operacion en curso este 
+este archivo esta vacio solo tiene un par de corchetes porque si lo dejo completamente vacio lanza un error desde el readFileSinc()
+Cliente: carga los datos del cliente en curso. se van guardando en dos pasos: con la opcion iniciar y cotizar. Existe el tercer 
+paso que seria con la opcion vender. Aqui se ingresaria el dni del cliente para guardarlo en la BD
+
+-CARPETA DATABASE
+Aqui se encuentran los datos de los autos en stock y los clientes que realizaron compras
+
+SI ES QUE ALGUIEN LO LLEGO A LEER CONPLETO ESPERO QUE NO LE HAYA SIDO MUY CONFUSO Y AYUDE A MEJORAR ESTA COSA 

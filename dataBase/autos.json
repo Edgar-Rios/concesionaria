@@ -1,0 +1,46 @@
+[
+    {
+        "marca":  "Ford",
+        "modelo": "Fiesta",
+        "color": "Azul",
+        "precio": 15000,
+        "km": 200,
+        "cuotas": 12,
+        "anio":  2019,
+        "patente": "APL123",
+        "vendido": false
+    },
+    {
+        "marca":  "Toyota",
+        "modelo": "Corolla",
+        "color": "Blanco",
+        "precio": 100000,
+        "km": 0,
+        "cuotas": 14,
+        "anio":  2019,
+        "patente": "JJK116",
+        "vendido": false
+    },
+    {
+        "marca":  "Nissan",
+        "modelo": "Sentra",
+        "color": "Gris",
+        "precio": 10000000,
+        "km": 0,
+        "cuotas": 20,
+        "anio":  2019,
+        "patente": "QWE546",
+        "vendido": false
+    },
+    {
+        "marca":  "BMW",
+        "modelo": "Serie 3",
+        "color": "Azul",
+        "precio": 500000,
+        "km": 0,
+        "cuotas": 15,
+        "anio":  2019,
+        "patente": "ASD123",
+        "vendido": false
+    }
+]
